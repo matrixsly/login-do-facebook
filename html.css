@@ -1,0 +1,19 @@
+
+
+form{
+     border: black 1px solid;
+     width: 500px;
+     margin: auto;
+     margin-top: 200px;
+     
+}
+input{
+     border: black solid 1px;
+     display: block;
+     margin: 6px;
+     padding: 8px;
+}
+
+.codigo-radio{
+     display: inline;
+}
