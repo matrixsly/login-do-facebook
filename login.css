@@ -1,8 +1,9 @@
 body{
-     border: black solid 1px;
+ 
      height: 600px;
      position: relative;
      font-family: Arial, Helvetica, sans-serif;
+     background:#f0f2f5; ;
 }
 input{
     border: none;
@@ -13,23 +14,26 @@ input{
 }
 
 fieldset{
-     border: black solid 1px;
+    
      width: 396px;
      height: 599px;
      margin: auto;
      position: relative;
       
      font-family: Arial, Helvetica, sans-serif;
+     
 }
 
 .form{
-     border: black solid 1px;
+      
      width: 396px;
      height: 315px;
      position:absolute;
      top: 150px;
      background-color: #ffff;
      font-family: Arial, Helvetica, sans-serif;
+     padding-bottom: 20px;
+
   
 
 }
@@ -117,17 +121,20 @@ tipo-senhas{
      }
 
 
-a{
+.tipo-senha{
    cursor: pointer;
    font-size: 17px;
+   text-decoration: none;
+   color: #1877f2; 
 }
 
 .caixa{
-     border: black solid 1px;
-     width: 500px;
+     
+     width: 580px;
      position: relative;
-     bottom: 440px;
+     bottom: 400px;
      left: 60px;
+     box-sizing: border-box;
     
 }
 
@@ -139,10 +146,10 @@ form{
 
 
 .super-caixa{
-     border: black solid 1px;
+   
      background: #f0f2f5;
      width: 980px;
-     height: 496px;
+     height: 586px;
      margin: auto;
      padding: 20px 0px;
      position: relative;
@@ -153,17 +160,20 @@ form{
 }
 
 .facebook{
-     border: black solid 1px;
+     
      font-family: Arial, Helvetica, sans-serif;
      font-size: 28px;
      font-weight: normal;
      line-height: 32px;
      width: 500px;
      height: 116px;
+     position: relative;
+     bottom: 20px;
+     right: 30px;
 }
 
 .imagem{
-     border:black solid 1px;
+    
      width: 300px;
      height: 106px;
 }
@@ -172,6 +182,17 @@ img{
       height: 106px;
      margin: -28px;
      width: 301px;
+     position: relative;
+     right: 40px;
+     top:10px
+}
+
+
+a{
+    cursor: pointer;
+   font-size: 17px;
+   text-decoration: none;
+   color: #ffffff; 
 }
 
  
